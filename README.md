@@ -21,3 +21,13 @@ jekyll build
 ```
 
 To view the site, run `jekyll serve` and point a browser to `http://localhost:4000/`.  More information on Jekyll can be found [here](http://jekyllrb.com/).
+
+## Deploy site
+
+To deploy changes to the site, first make sure you have been added as a contributor to the penndsg/website_source.git repo, then simply type
+
+```
+./deploy
+```
+
+from within the `website_source` directory. You should immediately see your changes reflected in penndsg.github.io.
