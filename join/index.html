@@ -14,7 +14,14 @@
   <link href="/css/style.css" rel="stylesheet" media="screen">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="/images/favicon.png"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/favicons/manifest.json">
+  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/favicons/favicon.ico">
+  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Google Analytics -->
   <script type="text/javascript">
@@ -89,6 +96,11 @@
             
               <a href="/join/">Join</a>
             </li>
+            
+            <li>
+            
+              <a href="/contact/">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -98,24 +110,10 @@
   <div id="content-wrapper">
     <div class="container">
 
-  <div class="text-center">
-    <h1>Join</h1>
-    <hr/>
-  </div>
-
-  <div class="smallhead">
-    If you're interested in participating in Penn Data Science Group in any way,
-    please fill out the form below.
-    Make sure to let us know what kinds of involvement you're interested in.
-    After filling out this form, you will receive emails inviting you to
-    our Slack channel (if you express interest in team projects)
-    and our Google Group (if you express interest in the weekly mailing list).
-  </div>
-
   <div class="bigspacer"></div>
 
-  <div class="text-center" style="height: 900px; background-color: #999999">
-    <h1>Embed Google Form Here</h1>
+  <div id="join-form-container">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9U8M8ls6krIQOfNeAdT6Tgnfj9mqgdcm3Vxh8TBUXRHv91Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
   </div>
 
 </div>
@@ -124,16 +122,30 @@
 
   <div id="footer">
     <nav class="navbar navbar-inverse text-center" role="navigation">
+      <div class="spacer"></div>
       <div class="container">
         <ul class="nav navbar-nav footernav">
           <li>
-            <a href="/about/">About</a>
-          </li>
-          <li>
-            <a href="/contact/">Contact</a>
-          </li>
-          <li>
-            <a href="/join/">Join</a>
+            <span class="fa-stack fa-lg">
+              <a href="https://www.facebook.com/PennDSG/">
+                <i class="fa fa-facebook-square fa-stack-2x"></i>
+              </a>
+            </span>
+            <span class="fa-stack fa-lg">
+              <a href="https://www.linkedin.com/groups/8583138">
+                <i class="fa fa-linkedin-square fa-stack-2x"></i>
+              </a>
+            </span>
+            <span class="fa-stack fa-lg">
+              <a href="https://github.com/penndsg">
+                <i class="fa fa-github-square fa-stack-2x"></i>
+              </a>
+            </span>
+            <span class="fa-stack fa-lg">
+              <a href="https://www.youtube.com/channel/UCLsuOKhFp2lG21BTvWbcbeQ">
+                <i class="fa fa-youtube-square fa-stack-2x"></i>
+              </a>
+            </span>
           </li>
         </ul>
       </div>

@@ -14,7 +14,14 @@
   <link href="/css/style.css" rel="stylesheet" media="screen">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="/images/favicon.png"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/favicons/manifest.json">
+  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/favicons/favicon.ico">
+  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Google Analytics -->
   <script type="text/javascript">
@@ -89,6 +96,11 @@
             
               <a href="/join/">Join</a>
             </li>
+            
+            <li>
+            
+              <a href="/contact/">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -153,22 +165,19 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12 text-center">
-      <h2>Want to Join?</h2>
+      <h2>Want to <a class="off" href="/join/">Join</a>?</h2>
     </div>
   </div>
   <div class="row smallhead">
-    <div class="col-sm-6 text-center">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8 text-center">
       <p>
-        <a href="/join/">Sign up here</a> for full membership (free!)
-        if you want to participate in team projects
+        Whether you want to work on a team project or
+        you're just interested in a weekly mailing list of data science events,
+        <a href="/join/">sign up here</a> (free!) and we'll hook you up.
       </p>
     </div>
-    <div class="col-sm-6 text-center">
-      <p>
-        Sign up for our weekly newsletter if you're just interested in
-        our events (also free!) and other data science events
-      </p>
-    </div>
+    <div class="col-sm-2"></div>
   </div>
 </div>
 
@@ -176,16 +185,30 @@
 
   <div id="footer">
     <nav class="navbar navbar-inverse text-center" role="navigation">
+      <div class="spacer"></div>
       <div class="container">
         <ul class="nav navbar-nav footernav">
           <li>
-            <a href="/about/">About</a>
-          </li>
-          <li>
-            <a href="/contact/">Contact</a>
-          </li>
-          <li>
-            <a href="/join/">Join</a>
+            <span class="fa-stack fa-lg">
+              <a href="https://www.facebook.com/PennDSG/">
+                <i class="fa fa-facebook-square fa-stack-2x"></i>
+              </a>
+            </span>
+            <span class="fa-stack fa-lg">
+              <a href="https://www.linkedin.com/groups/8583138">
+                <i class="fa fa-linkedin-square fa-stack-2x"></i>
+              </a>
+            </span>
+            <span class="fa-stack fa-lg">
+              <a href="https://github.com/penndsg">
+                <i class="fa fa-github-square fa-stack-2x"></i>
+              </a>
+            </span>
+            <span class="fa-stack fa-lg">
+              <a href="https://www.youtube.com/channel/UCLsuOKhFp2lG21BTvWbcbeQ">
+                <i class="fa fa-youtube-square fa-stack-2x"></i>
+              </a>
+            </span>
           </li>
         </ul>
       </div>
