@@ -7571,10 +7571,10 @@ img.offset {
   padding: 5px;
 }
 #footer i {
-  color: #ffffff;
+  color: #999999;
 }
 #footer i:hover {
-  color: #999999;
+  color: #666666;
 }
 #pennimg {
   display: block;
