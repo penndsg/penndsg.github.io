@@ -22,22 +22,6 @@ jekyll build
 
 This creates the static website files in the `_site` directory. To view the site, run `jekyll serve` (still from within the `website_source` directory) and point a browser to `http://localhost:4000/`.  More information on Jekyll can be found [here](http://jekyllrb.com/).
 
-## Commit and push changes to the source files
-
-If you have write access to this git repo, then after you make changes locally you'd like the website to have, do a `git add .`, `git commit -m "commit message"`, and `git push origin master` from within the `website_source` directory. This does not save the generated source files since `_site` is included in the `.gitignore` file.
-
-If you don't have write access, then fork this repo and create a pull request after you push your changes to your own repo. We'll review the changes and either accept them or work with you to clean them up.
-
-## Deploy site
-
-To deploy changes to the site, first make sure you have been added as a contributor to the penndsg/website_source.git repo, then simply type
-
-```
-./deploy
-```
-
-from within the `website_source` directory. You should immediately see your changes reflected in penndsg.github.io.
-
 ## Add new member
 
 To add a new member, use the `new_member.py` script. For example, to add John Doe, type
@@ -100,3 +84,19 @@ Project description here. You can add links like [this](https://www.google.com/s
 ## Add a new event
 
 For that, just copy a previous event file in the `events/_posts` directory. Make sure the date in the file name is the date of the event. Edit the file to your liking. Make sure to add a picture associated with the event and uncomment the image line.
+
+## Commit and push changes to the source files
+
+If you have write access to this git repo (website admins only), then after you make changes locally you'd like the website to have, do a `git add .`, `git commit -m "commit message"`, and `git push origin master` from within the `website_source` directory. This does not save the generated source files since `_site` is included in the `.gitignore` file.
+
+If you don't have write access, then fork this repo and create a pull request after you push your changes to your own repo. We'll review the changes and either accept them or work with you to clean them up.
+
+## Deploy site (website admins only)
+
+To deploy changes to the site, first make sure you have been added as a contributor to the penndsg/website_source.git repo, then type
+
+```
+./deploy.sh
+```
+
+from within the `website_source` directory. You should immediately see your changes reflected in penndsg.github.io.
