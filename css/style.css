@@ -7477,8 +7477,9 @@ h6,
 }
 .home-bkg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/upenn-philly-skyline.jpg');
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 #content-wrapper .container {
   padding-top: 20px;
