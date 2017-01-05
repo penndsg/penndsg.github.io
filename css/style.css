@@ -7500,8 +7500,8 @@ h6 {
 hr {
   margin-top: 0px;
   margin-bottom: 20px;
-  border-color: #848484;
-  width: 80%;
+  border-color: #bcbcbc;
+  width: 20%;
 }
 p + h2,
 p + h3,
@@ -7609,7 +7609,7 @@ img.offset {
   font-size: 35px;
 }
 .color-band {
-  background-color: #607d8b;
+  background-color: #383838;
   color: white;
   width: 100%;
 }
@@ -7639,10 +7639,9 @@ iframe {
 }
 .text {
   color: #000000;
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 35px;
+  line-height: 35px;
   position: relative;
-  top: -48px;
 }
 @keyframes draw {
   0% {
