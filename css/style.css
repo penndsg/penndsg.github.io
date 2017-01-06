@@ -7666,6 +7666,10 @@ img.offset {
 }
 .color-band {
   background-color: #383838;
+  background: -webkit-radial-gradient(#999999, #383838);
+  background: -o-radial-gradient(#999999, #383838);
+  background: -moz-radial-gradient(#999999, #383838);
+  background: radial-gradient(#999999, #383838);
   color: white;
   width: 100%;
 }
