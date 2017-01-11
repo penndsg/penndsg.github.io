@@ -7683,6 +7683,24 @@ iframe {
   width: 100%;
   height: 100%;
 }
+#google-calendar-container {
+  height: 600px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #google-calendar-container {
+    height: 600px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #google-calendar-container {
+    height: 500px;
+  }
+}
+@media (max-width: 767px) {
+  #google-calendar-container {
+    height: 400px;
+  }
+}
 .svg-wrapper {
   height: 60px;
   margin: 0 auto;
