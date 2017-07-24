@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8"/>
-  <title>Digit Recognizer</title>
+  <title>Datathon</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- RSS feed -->
@@ -52,17 +52,21 @@
   <!-- also controls color of footer logo on mouseover -->
   <script src="/js/footer.js"></script>
 
+  <!-- Smooth Scrolling -->
+  <script src="/js/smooth-scroll.min.js"></script>
+
+
 </head>
 
 <body>
 
 
   
-  <div id="header">
+  <div id="header" class="datathon-bkg">
   
     <div>
     
-    <nav class="navbar navbar-default dark-bkg" role="navigation">
+    <nav class="navbar navbar-default transparent-bkg" role="navigation">
     
       <div class="container">
         <div class="navbar-header">
@@ -86,7 +90,7 @@
             
             <li class="active">
             
-              <a href="/projects/">Projects</a>
+              <a href="/datathon/">Datathon</a>
             </li>
             
             <li>
@@ -120,23 +124,33 @@
   </div>
 
   
+    <div class="hugespacer"></div>
+    <div class="hugespacer"></div>
+    <div class="bigtitle text-center" style="color: #ffffff">
+    
+      Datathon
+    
+    </div>
+    
+    <div class="hugespacer"></div>
+    
+    <div class="hugespacer"></div>
+    <div class="spacer"></div>
+  
   </div>
 
   <div id="content-wrapper">
     <div class="container blog-post">
-  <div class="text-center">
-    <h1>Digit Recognizer</h1>
-  </div>
-  <hr>
+  
 
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
       
-      
-      <div class="bigspacer"></div>
       <div class="post">
-        <p>This project is based on the Kaggle competition titled <a href="https://www.kaggle.com/c/digit-recognizer">Digit Recognizer</a>. This is an ongoing learning competition based on the classic MNIST dataset of images of handwritten digits. Since this dataset has been so extensively studied, many useful scripts and resources are available. This makes it a great option for easing into image-based machine learning.</p>
+        <h1 id="fall-2017-citadel-datathon">Fall 2017 Citadel Datathon</h1>
+
+<p>On Saturday, September 23rd, 2017, PDSG will hold a datathon sponsored by <a href="https://www.citadel.com/">Citadel</a> with a grand prize of $25,000!! Stay tuned for more details by <a href="https://www.facebook.com/PennDSG">liking us on facebook</a> and signing up for our <a href="https://groups.google.com/forum/#!forum/pdsg-newsletter/join">mailing list</a>.</p>
 
       </div>
     </div>
@@ -158,30 +172,40 @@
           <li>
             <span class="fa-stack fa-lg">
               <a href="https://www.facebook.com/PennDSG/">
-                <i class="fa fa-facebook-square fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-2x"></i>
               </a>
             </span>
             <span class="fa-stack fa-lg">
               <a href="https://www.linkedin.com/groups/8583138">
-                <i class="fa fa-linkedin-square fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-2x"></i>
               </a>
             </span>
             <span class="fa-stack fa-lg">
-              <a href="https://github.com/penndsg">
-                <i class="fa fa-github-square fa-stack-2x"></i>
+              <a href="https://join.slack.com/t/pdsg/signup">
+                <i class="fa fa-slack fa-stack-2x"></i>
               </a>
             </span>
-            <span class="fa-stack fa-lg">
-              <a href="https://www.youtube.com/channel/UCLsuOKhFp2lG21BTvWbcbeQ">
-                <i class="fa fa-youtube-square fa-stack-2x"></i>
-              </a>
-            </span>
+            <!-- <span class="fa-stack fa-lg"> -->
+            <!--   <a href="https://github.com/penndsg"> -->
+            <!--     <i class="fa fa-github-square fa-stack-2x"></i> -->
+            <!--   </a> -->
+            <!-- </span> -->
+            <!-- <span class="fa-stack fa-lg"> -->
+            <!--   <a href="https://www.youtube.com/channel/UCLsuOKhFp2lG21BTvWbcbeQ"> -->
+            <!--     <i class="fa fa-youtube-square fa-stack-2x"></i> -->
+            <!--   </a> -->
+            <!-- </span> -->
           </li>
         </ul>
       </div>
       <div class="spacer"></div>
     </nav>
   </div>
-
 </body>
+
+<!-- Initialize the Smooth Scrolling function -->
+<script>
+  smoothScroll.init();
+</script>
+
 </html>
