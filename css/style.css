@@ -8607,6 +8607,12 @@ img.offset {
   background-position: center center;
   background-size: cover;
 }
+.alumni-bkg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/join.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 .members-bkg {
   background-repeat: no-repeat;
   background-position: center -100px;
