@@ -56,30 +56,36 @@ Tell us about yourself here. You can add links like [this](https://www.google.co
 
 Open this file and edit it to your liking. Add info for whatever links you want to appear in your profile and uncommend those lines. Feel free to delete commented lines you don't want to use. If you don't want a boring default profile picture, add a SQUARE profile picture (same number of pixels wide as tall) to (in this case) `/images/members/john-doe.jpg` and uncomment the image line.
 
-## Add new project
+## Add new blog post
 
-To add a new project, type
+To add a new blog post, type
 
 ```
-python new_project.py "My Project Title"
+python new_blog_post.py "My Blog Post Title"
 ```
 
-This will create a file with a path like `projects/_posts/2016-12-14-my-project-title.md`. This file will look something like this:
+This will create a file with a path like `projects/_posts/2018-09-26-my-blog-post-title.md`. This file will look something like this:
 
 ```
 ---
-layout: project
-title: "My Project"
-current: true
-contributors:
- - Team Leader Name
- - Team Member 2
- - Team Member 3
-# image: /images/projects/my-project.png
+layout: post
+title: "My Blog Post Title"
+# author:
+# image: /images/blog/my-blog-post-title.png
 ---
 
-Project description here. You can add links like [this](https://www.google.com/search?q=this).
+Blog post content here. To see what you can do with Markdown, check out
+[this Markdown cheatsheet]
+(https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 ```
+
+Uncomment the `author` line and add the name of the author. If the name matches
+the name of someone with a member profile (someone with a file in
+`members/_posts/`), then their image will be displayed over their name in the
+blog post, and a link to their profile will be generated.
+
+If there's a header image associated with the blog post, uncomment the `image`
+line in the file and make sure the path points to a valid image.
 
 ## Add a new event
 
