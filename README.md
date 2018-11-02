@@ -56,6 +56,10 @@ Tell us about yourself here. You can add links like [this](https://www.google.co
 
 Open this file and edit it to your liking. Add info for whatever links you want to appear in your profile and uncommend those lines. Feel free to delete commented lines you don't want to use. If you don't want a boring default profile picture, add a SQUARE profile picture (same number of pixels wide as tall) to (in this case) `/images/members/john-doe.jpg` and uncomment the image line.
 
+## Remove member
+To remove members, set all fields (board, associate_board, alumni) as false. 
+
+
 ## Add new blog post
 
 To add a new blog post, type
